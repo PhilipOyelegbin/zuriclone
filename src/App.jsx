@@ -16,7 +16,7 @@ const App = () => {
         <Route element={<SharedLayout/>}>
           <Route path='training' element={<Training/>}/>
           {/* <Route path='talent' element={<Talent/>}/> */}
-          <Route path='*' element={<Error/>}/>
+          {/* <Route path='*' element={<Error/>}/> */}
         </Route>
       </Routes>
     </>
