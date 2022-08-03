@@ -9,18 +9,16 @@ import Training from './pages/training/Training';
 const App = () => {
   return (
     <>
-      <Landing/>
-      <Training/>
-      {/* <Routes>
-        <Route path='/' element={<SharedLayout/>}>
-          <Route index element={<Landing/>}/>
+      {/* <Landing/>
+      <Training/> */}
+      <Routes>
+        <Route path='/' index element={<Landing/>}/>
+        <Route element={<SharedLayout/>}>
           <Route path='training' element={<Training/>}/>
-          <Route path='talent' element={<Talent/>}/>
-          <Route element={<ProtectedRoutes/>}>
-          </Route>
+          {/* <Route path='talent' element={<Talent/>}/> */}
           <Route path='*' element={<Error/>}/>
         </Route>
-      </Routes> */}
+      </Routes>
     </>
   )
 }
