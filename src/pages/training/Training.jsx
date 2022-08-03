@@ -6,7 +6,6 @@ const Training = () => {
       }, [])
   return (
     <>
-    Training
     </>
   )
 }
