@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Header from './Header';
 
 const Training = () => {
     useEffect(() => {
@@ -6,6 +7,7 @@ const Training = () => {
       }, [])
   return (
     <>
+      <Header/>
     </>
   )
 }
