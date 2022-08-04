@@ -9,10 +9,8 @@ const App = () => {
     <>
       <Routes>
         <Route path='/zuriclone' index element={<Landing/>}/>
-        <Route element={<SharedLayout/>}>
-          <Route path='training' element={<Training/>}/>
-          {/* <Route path='talent' element={<Talent/>}/> */}
-        </Route>
+        <Route path='/training' element={<Training/>}/>
+        {/* <Route path='talent' element={<Talent/>}/> */}
       </Routes>
     </>
   )

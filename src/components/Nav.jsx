@@ -8,10 +8,6 @@ const Nav = () => {
     {id: 1, link: '/zuriclone'},
     {id: 2, link: '/training'},
     {id: 3, link: '/talent'},
-    {id: 4, link: '/#About', label: "About"},
-    {id: 5, link: '/#WhyUs', label: "Why Us"},
-    {id: 5, link: '/#stacks', label: "Stacks Covered"},
-    {id: 5, link: '/#faqs', label: "FAQs"}
   ];
   return (
     <nav className="flex justify-between items-center px-5 py-3">
