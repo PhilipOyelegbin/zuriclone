@@ -9,7 +9,7 @@ const Stacks = () => {
     ]
 
   return (
-    <section className="mt-36">
+    <section id="stacks" className="mt-36">
         <div className="bg-red-500 px-5 md:px-3">
             <div className="flex flex-col justify-center gap-2 pt-12 text-white md:px-7 xl:flex-row">
                 <div className="xl:w-[40%] md:pt-6">

@@ -4,6 +4,9 @@ import Header from './Header';
 import About from './About';
 import Why from './Why';
 import Stacks from './Stacks';
+import FAQs from './FAQs';
+import Structure from './Structure';
+import Footer from '../../components/Footer';
 
 const Training = ({props}) => {
     useEffect(() => {
@@ -17,6 +20,9 @@ const Training = ({props}) => {
       <About/>
       <Why/>
       <Stacks/>
+      <FAQs/>
+      <Structure/>
+      <Footer/>
     </div>
   )
 }

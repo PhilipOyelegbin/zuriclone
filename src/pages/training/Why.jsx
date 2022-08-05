@@ -10,7 +10,7 @@ const Why = () => {
     ]
 
   return (
-    <section id="why" className="pt-12 px-5 md:px-10">
+    <section id="why-us" className="pt-12 px-5 md:px-10">
         <div className="flex flex-col md:flex-row">
             <div className="md:w-2/3 xl:w-1/2">
                 <div className="flex justify-center md:justify-end"><img src="https://training.zuri.team/section3wire.svg" className="h-14 md:mr-60 md:h-20" alt="image" /></div>
