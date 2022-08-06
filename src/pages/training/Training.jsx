@@ -22,7 +22,7 @@ const Training = ({props}) => {
       <Stacks/>
       <FAQs/>
       <Structure/>
-      <Footer/>
+      <Footer background="bg-white" color="text-black" logo="https://training.zuri.team/logo.svg" width="w-72" socialcolor="text-red-500" copyright="2022 Zuri Training" linktext1="Privacy Policy" linktext2="Ingress For Good"/>
     </div>
   )
 }

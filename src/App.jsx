@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
-import SharedLayout from './components/SharedLayout';
 import Landing from './pages/landing/Landing';
+import Talent from './pages/talent/Talent';
 import Training from './pages/training/Training';
 
 
@@ -10,7 +10,7 @@ const App = () => {
       <Routes>
         <Route path='/zuriclone' index element={<Landing/>}/>
         <Route path='/training' element={<Training/>}/>
-        {/* <Route path='talent' element={<Talent/>}/> */}
+        <Route path='/talent' element={<Talent/>}/>
       </Routes>
     </>
   )

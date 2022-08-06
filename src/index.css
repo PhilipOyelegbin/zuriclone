@@ -23,7 +23,7 @@
     }
 
     .btn {
-        @apply px-5 py-3;
+        @apply text-center px-6 py-2 md:text-left;
     }
 
     .card-container {
