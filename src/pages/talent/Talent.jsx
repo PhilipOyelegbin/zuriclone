@@ -1,10 +1,15 @@
-import Footer from "../../components/Footer"
-import Header from "./Header"
-import Impact from "./Impact"
-import Nav from "./Nav"
-import Why from "./Why"
+import { useEffect } from "react";
+import Footer from "../../components/Footer";
+import Header from "./Header";
+import Impact from "./Impact";
+import Nav from "./Nav";
+import Why from "./Why";
 
 const Talent = () => {
+  useEffect(() => {
+      document.title = 'Zuri';
+  }, []);
+
   return (
     <>
         <Nav/>

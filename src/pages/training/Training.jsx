@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import Nav from './Nav';
 import Header from './Header';
 import About from './About';
@@ -8,10 +8,10 @@ import FAQs from './FAQs';
 import Structure from './Structure';
 import Footer from '../../components/Footer';
 
-const Training = ({props}) => {
-    useEffect(() => {
-        document.title = 'Zuri'
-      }, [])
+const Training = () => {
+  useEffect(() => {
+      document.title = 'Zuri'
+    }, [])
     
   return (
     <div className='bg-[#fffdf5]'>
