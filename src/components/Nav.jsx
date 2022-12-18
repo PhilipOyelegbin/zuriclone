@@ -14,7 +14,7 @@ const Nav = () => {
       <img src={logo} alt="logo" />
       <ul className={`fixed gap-2 w-full pl-3 py-4 top-12 transition-all ease-in-out duration-300 md:flex md:items-center md:static md:w-auto md-pl-0 md:py-0 right-0 -right-full'}`}>
         {menuContent.map((contents) => (
-          <li className="text-xl" key={contents.id}><NavLink className={({isActive}) => isActive ? 'line-through' : ''} to={contents.link}>{contents.label}</NavLink></li>
+          <li className="text-xl" key={contents.id}><NavLink className={({isActive}) => isActive ? 'line-through' : undefined} to={contents.link}>{contents.label}</NavLink></li>
         ))}
       </ul>
     </nav>

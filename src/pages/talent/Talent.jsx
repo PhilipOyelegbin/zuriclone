@@ -6,6 +6,8 @@ import Nav from "./Nav";
 import Why from "./Why";
 
 const Talent = () => {
+  let year = new Date().getFullYear();
+  
   useEffect(() => {
       document.title = 'Zuri';
   }, []);
@@ -16,7 +18,7 @@ const Talent = () => {
         <Header/>
         <Impact/>
         <Why/>
-        <Footer background="bg-black" color="text-white" logo="https://talent.zuri.team/logo.svg" width="w-60" socialcolor="text-slate-200" copyright="Copyright 2022 ZURI TEAM. All rights Reserved" linktext1="" linktext2="talent@zuri.team"/>
+        <Footer background="bg-black" color="text-white" logo="https://talent.zuri.team/logo.svg" width="w-60" socialcolor="text-slate-200" copyright={`Copyright ${year} ZURI TEAM. All rights Reserved`} linktext1="" linktext2="talent@zuri.team"/>
     </>
   )
 }
