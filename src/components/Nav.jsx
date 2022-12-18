@@ -1,14 +1,13 @@
 import {NavLink} from 'react-router-dom';
-import { useState } from 'react';
 import logo from '../assets/zuri-logo-full.svg';
 
 const Nav = () => {
-
   const menuContent = [
     {id: 1, link: '/zuriclone'},
-    {id: 2, link: '/training'},
-    {id: 3, link: '/talent'},
+    {id: 2, link: '/zuriclone/training'},
+    {id: 3, link: '/zuriclone/talent'},
   ];
+  
   return (
     <nav className="flex justify-between items-center px-5 py-3">
       <img src={logo} alt="logo" />

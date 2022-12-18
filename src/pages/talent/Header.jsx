@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Header = () => {
   return (
     <section className='flex flex-col items-center pt-32 lg:pt-52 px-10 lg:flex-row'>
