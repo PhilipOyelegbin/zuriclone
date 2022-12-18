@@ -8,9 +8,9 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path='/zuriclone' index element={<Landing/>}/>
-        <Route path='/zuriclone/training' element={<Training/>}/>
-        <Route path='/zuriclone/talent' element={<Talent/>}/>
+        <Route path='/' index element={<Landing/>}/>
+        <Route path='/training' element={<Training/>}/>
+        <Route path='/talent' element={<Talent/>}/>
       </Routes>
     </>
   )
